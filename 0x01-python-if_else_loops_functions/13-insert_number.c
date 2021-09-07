@@ -4,6 +4,7 @@
  * insert_node - inserts node in a sorted list
  * @head: the start of the list
  * @number: data to add to the list
+ * Return: returns the pointer to the new node
  */
 listint_t *insert_node(listint_t **head, int number)
 {
@@ -24,5 +25,5 @@ node = node->next;
 
 new->next = node->next;
 node->next = new;
-return (new); 
+return (new);
 }
