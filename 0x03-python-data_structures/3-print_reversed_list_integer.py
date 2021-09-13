@@ -2,7 +2,7 @@
 
 
 def print_reversed_list_integer(my_list=[]):
-    idx = len(my_list) - 1
-    while idx >= 0:
-        print(my_list[idx])
-        idx -= 1
+    if isinstance(my_list, list):
+        my_list.reverse()
+        for i in my_list:
+            print("{:d}".format(i))
