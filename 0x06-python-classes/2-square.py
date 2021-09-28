@@ -6,6 +6,7 @@ class Square:
     """ Represents a Square """
     def __init__(self, size=0):
         """ Initialises new Square
+        
         Args:
             size (int): size of side of the square
         """
