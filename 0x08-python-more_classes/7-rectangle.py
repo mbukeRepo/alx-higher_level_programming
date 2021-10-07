@@ -10,11 +10,9 @@ class Rectangle:
        print_symbol (string): string used for representation
 
     """
-    
     number_of_instances = 0
     print_symbol = "#"
-    
-    
+
     def __init__(self, width=0, height=0):
         """ initialises new Rectangle
         Args:
@@ -86,4 +84,3 @@ class Rectangle:
         """ executes when the object goes out of scope """
         print("Bye rectangle...")
         type(self).number_of_instances -= 1
-
