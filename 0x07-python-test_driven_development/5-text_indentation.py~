@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+""" Defines printing function """
+
+
+def text_indentation(text):
+    """ Prints text
+    Args:
+        text (str): string to print
+    Raises:
+        TypeError: when text is not a string
+    """
+    if not isinstance(text, str):
+        raise TypeError("text must be a string")
+    for i in text:
+        print(i, end="")
+        if i in ".?:":
+            print("\n\n")
+
