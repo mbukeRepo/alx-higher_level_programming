@@ -1,0 +1,48 @@
+How to use 7-base_geometry.py
+
+General usage
+
+::
+
+	>>> BaseGeometry = __import__("7-base_geometry").BaseGeometry
+	>>> bg = BaseGeometry()
+	>>> bg.area()
+	Traceback (most recent call last):
+	Exception: area() is not implemented
+
+::
+
+Testing bg.integer_validator()
+
+1. Passing acceptable value
+
+::
+
+	>>> bg.integer_validator("mbuke", 4)
+
+::
+
+2. passing a negative
+
+::
+
+	>>> bg.integer_validator("mbuke", -4)
+	Traceback (most recent call last):
+	ValueError: mbuke must be greater than 0
+
+::
+
+3. passing other types apart from int
+
+::
+
+	>>> bg.integer_validator("mbuke", None)
+	Traceback (most recent call last):
+	TypeError: name must be an integer
+	>>> bg.integer_validator("mbuke", True)
+	Traceback (most recent call last):
+	TypeError: name must be an integer
+
+::
+
+
