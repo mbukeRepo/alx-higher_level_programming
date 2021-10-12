@@ -42,7 +42,19 @@ Testing bg.integer_validator()
 	>>> bg.integer_validator("mbuke", True)
 	Traceback (most recent call last):
 	TypeError: mbuke must be an integer
-
+	>>> bg.integer_validator("mbuke", [1,2])
+	Traceback (most recent call last):
+	TypeError: mbuke must be an integer
+	>>> bg.integer_validator("mbuke", {1,3})
+	Traceback (most recent call last):
+	TypeError: mbuke must be an integer
+	>>> bg.integer_validator("mbuke", (1,))
+	Traceback (most recent call last):
+	TypeError: mbuke must be an integer
+	>>> bg.integer_validator("mbuke", "3")
+	Traceback (most recent call last):
+	TypeError: mbuke must be an integer
+	
 ::
 
 4. not passing parameters
