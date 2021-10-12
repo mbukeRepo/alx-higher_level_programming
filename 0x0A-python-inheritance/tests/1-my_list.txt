@@ -4,7 +4,7 @@ General usage:
 
 ::
 
-	>>> MyList = __import__("1-my_list")
+	>>> MyList = __import__("1-my_list").MyList
 	>>> list = MyList()
 	>>> list.print_sorted()
 	[]
@@ -52,6 +52,6 @@ will be raised.
     >>> my_list = MyList([1, "Betty", "Holberton", 5])
     >>> my_list.print_sorted()
     Traceback (most recent call last):
-    TypeError: unorderable types: str() < int()
+    TypeError: '<' not supported between instances of 'str' and 'int'
 
 ::
