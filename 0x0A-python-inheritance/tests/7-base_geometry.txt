@@ -68,3 +68,13 @@ Testing bg.integer_validator()
 	TypeError: integer_validator() missing 1 required positional argument: 'value'
 
 ::
+
+5. passing zero as value
+
+::
+
+	>>> bg.integer_validator("mbuke", 0)
+	Traceback (most recent call last):
+	ValueError: mbuke must be greater than 0
+
+::
