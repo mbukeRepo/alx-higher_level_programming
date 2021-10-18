@@ -5,7 +5,7 @@ import json
 
 
 class Base:
-    """ Represents base class 
+    """ Represents base class
     Attributes:
         __nb_objects (int): number of instances
     """
