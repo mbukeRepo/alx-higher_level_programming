@@ -29,7 +29,10 @@ class Square(Rectangle):
 
     def __str__(self):
         """ informal representation of the square class"""
-        return "[Square] ({}) {}/{} - {}".format(self.id, self.x, self.y, self.width)
+        return "[Square] ({}) {}/{} - {}".format(self.id,
+                                                 self.x,
+                                                 self.y,
+                                                 self.width)
 
     def update(self, *args, **kwargs):
         """Update the Square.
@@ -70,14 +73,13 @@ class Square(Rectangle):
                 if k == "x":
                     self.x = v
                 if k == "y":
-                    self.y = v 
-
+                    self.y = v
 
     def to_dictionary(self):
         """ Dictionary represantation of Rectangle"""
         return {
             "id": self.id,
             "size": self.size,
-            "x":self.x,
-            "y":self.y
+            "x": self.x,
+            "y": self.y
         }

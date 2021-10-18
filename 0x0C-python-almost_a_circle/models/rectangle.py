@@ -3,6 +3,7 @@
 
 from models.base import Base
 
+
 class Rectangle(Base):
     """ Represents Rectangle class"""
 
@@ -91,11 +92,10 @@ class Rectangle(Base):
     def __str__(self):
         """ returns an informal representation of Rectangle """
         return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
-                                                                  self.x,
-                                                                  self.y,
-                                                                  self.width,
-                                                                  self.height)
-        
+                                                       self.x,
+                                                       self.y,
+                                                       self.width,
+                                                       self.height)
 
     def update(self, *args, **kwargs):
         """Update the Rectangle.
@@ -148,6 +148,6 @@ class Rectangle(Base):
             "id": self.id,
             "width": self.width,
             "height": self.height,
-            "x":self.x,
-            "y":self.y
+            "x": self.x,
+            "y": self.y
         }
