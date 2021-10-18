@@ -10,8 +10,8 @@ class Base:
         __nb_objects (int): number of instances
     """
     __nb_objects = 0
-    
-    def __init__(self, id = None):
+
+    def __init__(self, id=None):
         """ Base constructor
         Args:
             id (int): id of instance
@@ -21,7 +21,7 @@ class Base:
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
-    
+
     @staticmethod
     def to_json_string(list_dictionaries):
         """ returns a json string
