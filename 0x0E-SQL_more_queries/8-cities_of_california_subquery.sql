@@ -1,6 +1,6 @@
 -- lists cities in california state
 SELECT `id`, `name`
-FROM `hbtn_0d_usa`.`cities`
+FROM `cities`
 WHERE `state_id` IN
       	(
 		SELECT `id`
