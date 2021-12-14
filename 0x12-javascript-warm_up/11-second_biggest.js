@@ -1,5 +1,4 @@
 #!/usr/bin/node
-console.log(process.argv);
 if (process.argv.length <= 3) {
   console.log(0);
 } else {
