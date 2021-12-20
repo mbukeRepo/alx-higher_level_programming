@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # lists states that matches the name passed
-
+# usage: ./2-* <username> <password> <database>
 import MySQLdb
 import sys
 

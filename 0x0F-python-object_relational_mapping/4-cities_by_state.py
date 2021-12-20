@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # lists cities in database with its state
-
+# usage: ./4-*.py <username> <password> <database>
 import MySQLdb
 import sys
 

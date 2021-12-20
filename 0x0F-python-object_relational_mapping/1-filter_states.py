@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # lists states that starts with N
-
+# usage ./1-* <username> <password> <database>
 import sys
 import MySQLdb
 
