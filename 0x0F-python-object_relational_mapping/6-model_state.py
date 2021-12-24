@@ -2,6 +2,10 @@
 """
    connects to mysql database
    creates table and mapper class of State
+   usage: ./6-model_state.py
+                 <username>
+                 <password>
+                 <database>
 """
 import sys
 from model_state import Base, State
