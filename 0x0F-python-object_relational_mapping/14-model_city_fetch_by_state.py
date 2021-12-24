@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-
+  lists all all states and their cities
+  usage: ./14-model_city_fetch_by_state.py <username> <password> <db>
 """
 import sys
 from model_state import State
