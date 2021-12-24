@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Start link class to table in database 
+"""
+   connects to mysql database
+   creates table and mapper class of State
 """
 import sys
 from model_state import Base, State

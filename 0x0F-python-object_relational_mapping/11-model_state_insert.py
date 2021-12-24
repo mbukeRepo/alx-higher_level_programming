@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-# adds new state in the database
-# adds new row in states table
-# Usage: ./11-model_state_insert.py <mysql username> /
-#                                   <mysql password> /
-#                                   <database name>
-#                                   <state name searched>
+"""
+  adds new state in the database
+  adds new row in states table
+  Usage: ./11-model_state_insert.py <mysql username> /
+                                    <mysql password> /
+                                    <database name>
+                                    <state name searched>
+"""
 
 from sqlalchemy import create_engine
 import sys
