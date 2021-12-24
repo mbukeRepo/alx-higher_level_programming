@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-   represents city mapper and table
-   Instantiates Base from declarative_base
+
 """
 
 from model_state import Base
