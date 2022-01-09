@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
    fetches header on response
    usage: ./1-hbtn_header.py <url>
    res.headers.get(<header>)
@@ -13,5 +13,3 @@ if __name__ == "__main__":
     req = urllib.request.Request(url)
     with urllib.request.urlopen(req) as res:
         print(dict(res.headers).get("X-Request-Id"))
-
-

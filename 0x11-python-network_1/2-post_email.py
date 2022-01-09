@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
    sends a post request to a url
    data: {email: <email>}
    usage: ./2-post_email.py <url> <email>

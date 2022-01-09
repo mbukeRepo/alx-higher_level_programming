@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
    Sends a request using requests module
    usage: ./4-hbtn_status.py
 """

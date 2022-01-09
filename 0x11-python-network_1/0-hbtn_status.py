@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
    fetches a url and prints the response
    usage: ./0-hbtn_status.py
    url is fixed..

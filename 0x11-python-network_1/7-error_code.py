@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
     sends req and print status code of res
     usage: ./7-error_code.py <url>
 """

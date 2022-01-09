@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
    sends a req and prints error if raised
    usage: ./3-error_code.py
    raised error: urllib.error.HTTPError
